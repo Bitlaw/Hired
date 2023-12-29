@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hired</title>
+    <link rel="stylesheet" href="styles/cssreset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <!-- todo: HEADER NAV AND SIGN IN -->
+    <header class="header">
+      <div class="header__logo">
+        <h1 class="logo__title">Hired</h1>
+        <div class="logo__img">
+          <img src="images/logo.png" alt="This is the company logo" />
+        </div>
+      </div>
+      <nav class="nav-header">
+        <ul class="nav-header__ul">
+          <li><a href="#" class="nav-header__li">Home</a></li>
+          <li><a href="#" class="nav-header__li">Company</a></li>
+          <li><a href="#" class="nav-header__li">Browse</a></li>
+          <li><a href="#" class="nav-header__li">Blog</a></li>
+        </ul>
+      </nav>
+      <div class="header__right">
+        <a href="#" class="right__post">Post a Job</a>
+        <a href="#" class="right__loging"><p>Log in</p></a>
+      </div>
+    </header>
+    <!-- todo: CONTENT DIVIDER-->
+    <div class="divider"></div>
+    <!-- todo: MAIN WRAPPER -->
+    <div class="main-wrapper">
+      <main>
+        <!-- todo: HERO - FIND THE MOST EXCITING JOBS IN THE TECH -->
+        <div class="hero">
+          <div class="hero__top">
+            <div class="stay-connected">
+              <p>
+                <span class="connected__spam">New</span> Stay connected to get
+                upcoming jobs
+              </p>
+            </div>
+            <h1 class="hero__h1">Find the most exciting jobs in tech</h1>
+            <p class="hero__p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi
+              rhoncus, pharetra leo et.
+              <a href="#" class="hero__signin">Sign in</a> or
+              <a href="#" class="hero__signup">Sign up</a> to get started!
+            </p>
+          </div>
+          <form
+            class="hero__search"
+            action="https://www.google.com"
+            method="get"
+          >
+            <input class="search" type="search" placeholder="search" />
+            <button class="search-btn" type="submit" value="search">
+              Search
+            </button>
+          </form>
+          <div class="hero__imgbox">
+            <img
+              src="images/jobs.png"
+              alt="Hero section image"
+              class="imgbox__img"
+            />
+          </div>
+          <div class="partnership__description">
+            Work for <b>industry leading</b> global companies
+          </div>
+          <div class="partnership__logo">
+            <img
+              src="images/opentable.svg"
+              alt="Open Table logo image"
+              class="logo__opentable"
+            />
+            <img
+              src="images/hubspot.svg"
+              alt="Hubspot logo image"
+              class="logo__hubspot"
+            />
+            <img
+              src="images/amazon.svg"
+              alt="Amazon logo"
+              class="logo__amazon"
+            />
+            <img
+              src="images/shopify.svg"
+              alt="Shopify logo"
+              class="logo__shopify"
+            />
+          </div>
+        </div>
+        <!-- todo: EXPLORE THE LASTEST JOBS -->
+        <div class="explore-container">
+          <div class="explore">
+            <div class="explore__jobs">
+              <h1 class="explore__h1">Explore the latest job openings</h1>
+              <p class="explore__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a
+                mi rhoncus, pharetra leo et, efficitur tortor. Fusce vel
+                convallis magna.
+              </p>
+            </div>
+            <a href="#" class="jobs__search"><p>See All Jobs</p></a>
+          </div>
+          <div class="company__container">
+            <div class="company">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/dribble.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>Dribble</h6></div>
+                <br />
+                <div class="offer__date">December 6, 2023</div>
+                <p class="offer__job">Front End Developer</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Marketing</p>
+                <p class="offer__hours">Part Time</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />San Antonio
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />$ 130k - 160k
+                </p>
+              </div>
+            </div>
+            <div class="company company--paypal">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/paypal.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>PayPal</h6></div>
+                <br />
+                <div class="offer__date">November 12, 2023</div>
+                <p class="offer__job">System Administrator</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Business</p>
+                <p class="offer__hours">Casual</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />California
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />$ 50k - 70k
+                </p>
+              </div>
+            </div>
+            <div class="company company--tokopedia">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/tokopedia.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>Tokopedia</h6></div>
+                <br />
+                <div class="offer__date">March 30, 2023</div>
+                <p class="offer__job">Scrum Master</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Marketing</p>
+                <p class="offer__hours">Part Time</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />New York
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />
+                  $ 5k - 9k
+                </p>
+              </div>
+            </div>
+            <div class="company company--spotify">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/spotify.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>Spotify</h6></div>
+                <br />
+                <div class="offer__date">June 8, 2023</div>
+                <p class="offer__job">Digital Media Strategist</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Business</p>
+                <p class="offer__hours">Part Casual</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />Dallas
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />
+                  $ 200k - 300k
+                </p>
+              </div>
+            </div>
+            <div class="company company--tokopedia2">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/tokopedia.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>Tokopedia</h6></div>
+                <br />
+                <div class="offer__date">March 30, 2023</div>
+                <p class="offer__job">Scrum Master</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Marketing</p>
+                <p class="offer__hours">Part Time</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />New York
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />
+                  $ 5k - 9k
+                </p>
+              </div>
+            </div>
+            <div class="company company--tokopedia">
+              <div class="company__offer">
+                <div class="offer__container">
+                  <div class="container__logo">
+                    <img src="images/tokopedia.svg" alt="" class="logo__img" />
+                  </div>
+                </div>
+                <div class="offer__cname"><h6>Tokopedia</h6></div>
+                <br />
+                <div class="offer__date">March 30, 2023</div>
+                <p class="offer__job">Scrum Master</p>
+              </div>
+              <div class="offer__position-hours">
+                <p class="offer__position">Marketing</p>
+                <p class="offer__hours">Part Time</p>
+              </div>
+              <div class="offer__location-payment">
+                <p class="offer__location">
+                  <img
+                    src="images/locationicon.svg"
+                    alt=""
+                    class="location__icon"
+                  />New York
+                </p>
+                <p class="offer__payment">
+                  <img
+                    src="images/moneyicon.svg"
+                    alt=""
+                    class="payment__icon"
+                  />
+                  $ 5k - 9k
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- todo: WHY CHOOSE US -->
+    <div class="whyus">
+      <img
+        class="whyus__img"
+        src="images/testimony.jpg"
+        alt="This is a picture of a testimony"
+      />
+      <div class="whyus__text">
+        <div class="text__whyus">WHY CHOOSE US</div>
+        <div class="text__title">
+          Build a custom membership site with locked content.
+        </div>
+        <div class="text__lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a mi
+          rhoncus, pharetra leo et, efficitur tortor. Fusce vel convallis magna,
+          sit amet pulvinar diam. Sed laoreet feugiat consequat.
+        </div>
+        <div class="whyus__feature">
+          <div class="feature__box">
+            <img
+              class="feature__icon"
+              src="images/whyus.svg"
+              alt="why us section icon"
+            />
+          </div>
+          <div class="feature__text">
+            <p>Add a feature point here</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="whyus__feature">
+          <div class="feature__box">
+            <img
+              class="feature__icon"
+              src="images/whyus.svg"
+              alt="why us section icon"
+            />
+          </div>
+          <div class="feature__text">
+            <p>Add a feature point here</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="whyus__feature">
+          <div class="feature__box">
+            <img
+              class="feature__icon"
+              src="images/whyus.svg"
+              alt="why us section icon"
+            />
+          </div>
+          <div class="feature__text">
+            <p>Add a feature point here</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- todo: CONTENT DIVIDER -->
+    <div class="divider"></div>
+    <!-- todo: FOOTER -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer__nav">
+          <div class="header__logo footer--logo">
+            <h1 class="logo__title">Hired</h1>
+            <div class="logo__img">
+              <img src="images/logo.png" alt="This is the company logo" />
+            </div>
+          </div>
+          <div class="footer__nav-links">
+            <ul class="footer__nav-pages">
+              <li>PAGES</li>
+              <br />
+              <li>Home</li>
+              <li>About</li>
+              <li>Pricing</li>
+              <li>Jobs</li>
+              <li>Post a Job</li>
+            </ul>
+            <ul class="footer__nav-account">
+              <li>ACCOUNT</li>
+              <br />
+              <li>Sign in</li>
+              <li>Sing up</li>
+              <li>Reset password</li>
+              <li>User account</li>
+            </ul>
+            <ul class="footer__nav-template">
+              <li>TEMPLATE</li>
+              <br />
+              <li>Style Guide</li>
+              <li>Licencse</li>
+              <li>Changelog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__newsletters">
+          <div class="newsletters__singup">
+            <p>SIGN UP TO OUR NEWSLETTER</p>
+          </div>
+          <form
+            class="newsletters__form"
+            action="https://www.google.com"
+            method="post"
+          >
+            <input
+              class="form__email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+            />
+            <button class="form__signup" type="sumbit">Get Started</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__copyright"><p>All Rights Reserved, 2023.</p></div>
+    </footer>
+  </body>
+</html>
